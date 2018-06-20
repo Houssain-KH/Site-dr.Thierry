@@ -1,0 +1,183 @@
+.backgroundindex{
+	background: url('../img/blanc.png') no-repeat center center fixed ;
+	height: 100vh;
+}
+.backgroundintro{
+	background: url('../img/zen.png') no-repeat center center fixed ;
+	height: 100vh;
+}
+.backgroundbio{
+	background: url('../img/background.jpg') no-repeat center center fixed ;
+	height: 100vh;
+}
+.backgroundacup{
+	background: url('../img/acup.jpg')no-repeat center center fixed  ;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.backgroundauricu{
+	background: url('../img/acup.jpg')no-repeat center center fixed  ;
+	height: 100vh;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.backgroundpratique{
+	background: url('../img/2.jpg')no-repeat center center fixed  ;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.backgroundcontact{
+	background: url('../img/3.jpg') no-repeat center center fixed ;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+@media screen and (max-height: 853px) {
+	.backgroundbio{
+		height: 200vh;
+	}
+}
+a{
+	text-decoration: none;
+}
+
+/*menu*/
+.nav-item{
+	-webkit-transition: background-color 0.4s ease-out;
+  -moz-transition: background-color 0.4s ease-out;
+  -o-transition: background-color 0.4s ease-out;
+  transition: background-color 0.4s ease-out;
+  letter-spacing: 4px;
+}
+.nav-item:hover{
+	background-color: #8C2C1E;
+}
+.active{
+	background-color: #8C2C1E;
+}
+.nav-item a{
+	color: white !important;
+	text-transform: uppercase;
+}
+
+/*fin menu*/
+
+/*page accueil*/
+
+.divaccueil{
+	margin-top: 35vh;
+}
+.divaccueil h1{
+	color: #8C2C1E;
+	font-size: 4vw;
+}
+@media screen and (max-width: 600px) {
+	.divaccueil h1 {
+    	font-size: 10vw;
+  	}
+  	.divaccueil {
+  		margin-right: 0 !important;
+  	}
+	.divaccueil h1,.divaccueil h6{
+		margin-right: 0 !important;
+	}
+	.divaccueil a{
+		margin-right: 0 !important;
+	}
+
+}
+
+.btnintro{
+ 	background: transparent;
+  	border-radius: 0;
+  	border: 3px solid #981F24;
+  	color: #981F24;
+  	font-weight: bold;
+  	padding: 7px 32px;
+  	margin-top: 40px;
+  	transition: all 0.4s ease-in-out;
+}
+.btnintro:hover {
+  	background: #8c2c1e;
+  	color: #ffffff;
+  	text-decoration: none;
+}
+
+/* fin page accueil*/
+
+/*page intro*/
+.pintro{
+	margin-top: 15vh !important;
+	background-color: rgb(0,0,0,0.5); 
+	color: white;
+	font-size: 2.5vh;
+}
+@media screen and (max-width: 600px) {
+	.pintro{
+		font-size: 12px;
+		margin:50px 0px 0px 0px !important;
+		padding: 1rem !important;	
+	}
+}
+
+/*fin page intro*/
+
+/*page bio*/
+.titrebio{
+	font-size: 20px;
+	line-height:2.6;
+}
+.biosection{
+	margin-top: 10vh !important;
+	background-color: rgb(0,0,0,0.5); 
+	color: white;
+}
+.biosection p{
+	line-height: inherit;
+}
+.biosection hr{
+	border: solid 2px #8c2c1e;
+	width: 100px;
+}
+
+.imgbio{
+	height: 50%;
+	width: auto !important;
+	margin-top: 10vh !important;
+}
+/* fin page bio*/
+
+/*acupuncture page*/
+.acuptext{
+	margin-top: 10vh !important;
+	background-color: rgb(0,0,0,0.5); 
+	color: white;
+}
+/*Fin acupuncture page*/
+
+/*page auriculotherapie*/
+.sectionauricu{
+	margin-top: 10vh !important;
+	background-color: rgb(0,0,0,0.5); 
+	color: white;
+}
+/*fin page auriculotherapie*/
+
+/*page en pratique*/
+.textenpratique{
+	margin-top: 10vh !important;
+	background-color: rgb(0,0,0,0.5); 
+	color: white;
+}
+.mapcontact{
+	margin-top: 10vh !important;
+}
+/*fin page en pratique*/
